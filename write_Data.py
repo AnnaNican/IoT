@@ -41,7 +41,8 @@ try:
 	ser = serial.Serial('/dev/ttyACM0', 9600)
 except:
 	# probably should handle this better
-	pass
+	print 'Could not connect to arduino'
+	sys.exit(1)
 
 # ---------------------------------------------------------------------
 #                                                     Setup: Database
