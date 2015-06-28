@@ -2,6 +2,7 @@
 
 import sqlite3 as lite
 import sys
+import time
 import datetime
 
 import serial
